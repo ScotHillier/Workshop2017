@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "ng-2-spfx-basics",
+  "accessKey": "<!-- ACCESS KEY -->"
+}

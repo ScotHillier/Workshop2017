@@ -1,0 +1,59 @@
+{
+  "id": "b520f400-d2ca-4479-ac39-c2d2e4fd27b7",
+  "alias": "MyPartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "b520f400-d2ca-4479-ac39-c2d2e4fd27b7",
+      "group": {
+        "default": "Under Development"
+      },
+      "title": {
+        "default": "MyPart"
+      },
+      "description": {
+        "default": "My first real web part"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "MyPart"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "my-part.bundle",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "my-part.bundle": {
+        "type": "path",
+        "path": "dist/my-part.bundle.js"
+      },
+      "react": {
+        "type": "component",
+        "version": "15.4.2",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "failoverPath": "node_modules/react/dist/react.js"
+      },
+      "react-dom": {
+        "type": "component",
+        "version": "15.4.2",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "failoverPath": "node_modules/react-dom/dist/react-dom.js"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.0.0",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.0.0",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      }
+    }
+  }
+}

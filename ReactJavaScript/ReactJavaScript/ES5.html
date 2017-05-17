@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ES5 Custom Components</title>
+</head>
+<body>
+
+    <div id="app"></div>
+
+    <!-- React Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-dom.js"></script>
+
+    <script>
+
+        var Component = React.createClass(
+            {
+                propTypes: { message: React.PropTypes.string },
+                getDefaultProps: function() { return { message: "I don't know what to say!" }},
+                getInitialState: function() { return { text: this.props.message}},
+                updateTextState: function(newText) { this.setState({ text: "Thank you!" })},
+                render: function () {
+                    return React.DOM.h1({onClick: this.updateTextState}, this.state.text);
+                }
+            }
+        );
+
+        ReactDOM.render(React.createElement(Component, { message: "Click on my first component" }), document.getElementById("app"));
+
+    </script>
+
+
+</body>
+</html>

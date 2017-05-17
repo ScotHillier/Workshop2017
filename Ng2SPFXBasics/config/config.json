@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/ng2Basics/Ng2BasicsWebPart.js",
+      "manifest": "./src/webparts/ng2Basics/Ng2BasicsWebPart.manifest.json",
+      "outputPath": "./dist/ng-2-basics.bundle.js"
+    }
+  ],
+  "externals": {
+            "@angular/platform-browser-dynamic": "https://unpkg.com/@angular/platform-browser-dynamic@2.1.1/bundles/platform-browser-dynamic.umd.js",
+            "@angular/platform-browser'": "https://unpkg.com/@angular/platform-browser@2.1.1/bundles/platform-browser.umd.js",
+            "@angular/core": "https://unpkg.com/@angular/core@2.1.1/bundles/core.umd.js",
+            "@angular/common": "https://unpkg.com/@angular/common@2.1.1/bundles/common.umd.js",
+            "@angular/compiler": "https://unpkg.com/@angular/compiler@2.1.1/bundles/compiler.umd.js",
+            "@angular/http": "https://unpkg.com/@angular/http@2.1.1/bundles/http.umd.js",
+            "rxjs": "https://unpkg.com/rxjs"
+  },
+
+  "localizedResources": {
+    "ng2BasicsStrings": "webparts/ng2Basics/loc/{locale}.js"
+  }
+}

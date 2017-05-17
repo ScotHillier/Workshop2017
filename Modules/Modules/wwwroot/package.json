@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "es6-module-loader": "^0.17.9",
+    "es6-promise": "^3.3.1",
+    "es6-shim": "^0.33.13",
+    "jquery": "^2.1.4",
+    "requirejs": "^2.1.22",
+    "systemjs": "^0.19.14",
+    "toastr": "^2.1.2"
+  }
+}

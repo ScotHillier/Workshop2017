@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "my-first-real-web-part-client-side-solution",
+    "id": "0a67f026-44ca-4766-bcc1-ddeba3ceebc6",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/my-first-real-web-part.sppkg"
+  }
+}

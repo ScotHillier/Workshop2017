@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\system.config.js" Url="Scripts/system.config.js" />
+    <File Path="Scripts\app.component.js" Url="Scripts/app.component.js" />
+    <File Path="Scripts\app.component.js.map" Url="Scripts/app.component.js.map" />
+    <File Path="Scripts\app.module.js" Url="Scripts/app.module.js" />
+    <File Path="Scripts\app.module.js.map" Url="Scripts/app.module.js.map" />
+    <File Path="Scripts\app.service.js" Url="Scripts/app.service.js" />
+    <File Path="Scripts\app.service.js.map" Url="Scripts/app.service.js.map" />
+    <File Path="Scripts\boot.js" Url="Scripts/boot.js" />
+    <File Path="Scripts\boot.js.map" Url="Scripts/boot.js.map" />
+  </Module>
+</Elements>

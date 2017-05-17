@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ES2015 Custom Components</title>
+</head>
+<body>
+
+    <div id="app"></div>
+
+    <!-- React Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
+
+    <script>
+
+        class Component extends React.Component {
+
+            constructor(props) {
+                super(props);
+                this.state = { text: props.message };
+                this.updateTextState = this.updateTextState.bind(this);
+            }
+
+            render() { return React.DOM.h1({ onClick: this.updateTextState }, this.state.text); }
+
+            updateTextState(newText) { this.setState({ text: "Thank you!" }); }
+
+        }
+        
+
+    </script>
+
+
+    <script type="text/babel">
+
+        ReactDOM.render(<Component message="Click on my ES2015 component" />, document.getElementById("app"));
+
+    </script>
+
+</body>
+</html>

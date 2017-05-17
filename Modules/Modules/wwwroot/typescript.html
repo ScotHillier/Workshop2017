@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript</title>
+
+    <!-- bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- toast notifications -->
+    <link href="node_modules/toastr/build/toastr.css" rel="stylesheet" />
+    <script src="node_modules/toastr/build/toastr.min.js"></script>
+
+    <!-- module support -->
+    <script src="node_modules/systemjs/dist/system.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/internal.html">Internal</a></li>
+            <li><a href="/require.html">Require</a></li>
+            <li><a href="/es6.html">ES6</a></li>
+            <li class="active"><a href="/typescript.html">TypeScript</a></li>
+        </ul>
+        <div>
+            <div class="jumbotron">
+                <h1>TypeScript Modules</h1>
+                <p>Demonstrates the use of external modules with TypeScript and System.js.</p>
+            </div>
+            <div class="btn-group">
+                <button type="button" id="personSpeak" class="btn btn-default">person.speak</button>
+                <button type="button" id="customerTalk" class="btn btn-default">customer.talk</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        System.config({
+            packages: {
+                'app': {
+                    format: 'register',
+                    defaultExtension: 'js',
+                    map: {
+                        'person':'./person.js',
+                        'customer': './customer.js'
+                    }
+                }
+            }
+        });
+        System.import('app/boot')
+              .then(null, console.error.bind(console));
+    </script>
+
+</body>
+</html>

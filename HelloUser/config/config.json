@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/helloUser/HelloUserWebPart.js",
+      "manifest": "./src/webparts/helloUser/HelloUserWebPart.manifest.json",
+      "outputPath": "./dist/hello-user.bundle.js"
+    }
+  ],
+  "externals": {
+    "react":"https://unpkg.com/react@15.4.1/dist/react.js",
+    "react-dom": "https://unpkg.com/react-dom@15.4.1/dist/react-dom.js"
+  },
+  "localizedResources": {
+    "helloUserStrings": "webparts/helloUser/loc/{locale}.js"
+  }
+}
