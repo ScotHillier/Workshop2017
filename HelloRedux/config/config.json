@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/favoritePoll/FavoritePollWebPart.js",
+      "manifest": "./src/webparts/favoritePoll/FavoritePollWebPart.manifest.json",
+      "outputPath": "./dist/favorite-poll.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "favoritePollStrings": "webparts/favoritePoll/loc/{locale}.js"
+  }
+}

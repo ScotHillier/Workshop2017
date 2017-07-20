@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.1",
+    "libraryName": "hello-redux",
+    "libraryId": "6bb6640a-6033-4b61-b739-ec5ae64ee5a7",
+    "environment": "spo"
+  }
+}
