@@ -1,4 +1,4 @@
-﻿var App = window.Namespace || {};
+﻿var App = window.App || {};
 
 App.internalModule1 = function () {
 
