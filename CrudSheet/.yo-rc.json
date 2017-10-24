@@ -1,8 +1,0 @@
-{
-  "@microsoft/generator-sharepoint": {
-    "libraryName": "crud-sheet",
-    "framework": "react",
-    "version": "1.0.0",
-    "libraryId": "a20c8a6e-051b-469c-88d3-b6d3ada0634c"
-  }
-}

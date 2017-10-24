@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <Module Name="Pages">
-    <File Path="Pages\Angular2HomePage.aspx" Url="Pages/Angular2HomePage.aspx" />
-  </Module>
-</Elements>

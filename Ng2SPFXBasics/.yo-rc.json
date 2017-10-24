@@ -1,8 +1,0 @@
-{
-  "@microsoft/generator-sharepoint": {
-    "libraryName": "ng-2-spfx-basics",
-    "framework": "none",
-    "version": "1.0.0",
-    "libraryId": "b02ea6f5-715d-453c-98d0-f2ee5871a4fc"
-  }
-}

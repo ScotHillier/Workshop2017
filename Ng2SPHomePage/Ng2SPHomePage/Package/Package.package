@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="69d9b124-56e8-47d5-b4d7-49ebd44835e7" solutionId="69d9b124-56e8-47d5-b4d7-49ebd44835e7" resetWebServer="false" sharePointProductVersion="15.0" name="Ng2SPHomePage" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
-  <features>
-    <featureReference itemId="79822ad4-44ac-4720-a3bb-a31699983ee4" />
-  </features>
-</package>
