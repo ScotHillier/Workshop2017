@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "percent-customizer-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/percentCustomizer/PercentCustomizerFieldCustomizer.js",
+          "manifest": "./src/extensions/percentCustomizer/PercentCustomizerFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PercentCustomizerFieldCustomizerStrings": "lib/extensions/percentCustomizer/loc/{locale}.js"
+  }
+}

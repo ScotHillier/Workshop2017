@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "d59d3a39-e0c0-4838-98ce-a4394b3c603c",
+  "alias": "CrudSheetWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "d59d3a39-e0c0-4838-98ce-a4394b3c603c",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Crud Sheet" },
+    "description": { "default": "A web part that performs CRUD operartions on lists" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Crud Sheet"
+    }
+  }]
+}

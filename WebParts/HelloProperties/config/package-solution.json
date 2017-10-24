@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-properties-client-side-solution",
+    "id": "9d8aeb40-d0d6-47d9-bf01-2b24943e321c",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-properties.sppkg"
+  }
+}

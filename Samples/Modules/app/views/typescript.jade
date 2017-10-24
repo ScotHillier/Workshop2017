@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    script(src='/libs/systemjs/system.js')
+
+    div(class='jumbotron') 
+        p Demonstrates loading external modules with SYSTEM JS and TypeScript
+
+    button(id='personSpeak' class='btn btn-primary') Person Speak
+    button(id='customerTalk' class='btn btn-primary') Customer Talk
+
+    script(src='/javascripts/typescriptLoader.js')

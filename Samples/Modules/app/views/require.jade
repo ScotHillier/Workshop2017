@@ -1,0 +1,11 @@
+extends layout
+
+block content
+
+    div(class='jumbotron')
+        p Demonstrates dynamic module loading with REQUIRE JS
+
+    button(id='personSpeak' class='btn btn-primary') Person Speak
+    button(id='customerTalk' class='btn btn-primary') Customer Talk
+
+    script(src='/libs/requirejs/require.js' data-main='/javascripts/requireLoader.js')    

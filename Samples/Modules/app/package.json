@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "es6-module-loader": "^0.17.11",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "jquery": "^3.2.1",
+    "morgan": "~1.9.0",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.5",
+    "serve-favicon": "~2.4.5",
+    "systemjs": "^0.20.19",
+    "toastr": "^2.1.2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://shillier.sharepoint.com/sites/appdev/spfx/Shared%20Documents/Forms/AllItems.aspx?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={'50c1f083-efd5-4fcd-8f7b-f0d8bd2697db':{'location':'ClientSideExtension.ApplicationCustomizer',}}",
+      "customActions": {
+        "50c1f083-efd5-4fcd-8f7b-f0d8bd2697db": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "",
+            "Bottom": ""
+          }
+        }
+      }
+    },
+    "greetings": {
+      "pageUrl": "https://shillier.sharepoint.com/sites/appdev/spfx/Shared%20Documents/Forms/AllItems.aspx?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={'50c1f083-efd5-4fcd-8f7b-f0d8bd2697db':{'location':'ClientSideExtension.ApplicationCustomizer',}}",
+      "customActions": {
+        "50c1f083-efd5-4fcd-8f7b-f0d8bd2697db": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "",
+            "Bottom": ""
+          }
+        }
+      }
+    }
+  }
+}

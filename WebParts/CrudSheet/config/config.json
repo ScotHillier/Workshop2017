@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/crudSheet/CrudSheetWebPart.js",
+      "manifest": "./src/webparts/crudSheet/CrudSheetWebPart.manifest.json",
+      "outputPath": "./dist/crud-sheet.bundle.js"
+    }
+  ],
+  "externals": {}
+}

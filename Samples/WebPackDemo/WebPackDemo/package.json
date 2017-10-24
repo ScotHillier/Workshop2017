@@ -1,0 +1,12 @@
+{
+  "name": "web-pack-demo",
+  "version": "0.0.0",
+  "description": "WebPackDemo",
+  "main": "bundle.js",
+  "author": {
+    "name": "Scot Hillier"
+  },
+  "devDependencies": {
+    "webpack": "^2.5.0"
+  }
+}

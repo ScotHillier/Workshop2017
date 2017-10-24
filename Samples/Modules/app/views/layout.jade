@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+
+    link(rel='stylesheet', href='/libs/toastr/toastr.min.css')
+    link(rel='stylesheet', href='/libs/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+    script(src='/libs/jquery/jquery.min.js')
+    script(src='/libs/toastr/toastr.min.js')
+    script(src='/libs/bootstrap/js/bootstrap.min.js')
+
+  body
+    div(class='container')
+      ul(class='nav nav-tabs')
+        li 
+          a(href='/internal') Internal
+        li 
+          a(href='/require') Require JS
+        li
+          a(href='/ecmascript') ES 2017
+        li 
+          a(href='/typescript') Typescript
+      div
+        block content

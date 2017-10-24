@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-properties-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloProperties/HelloPropertiesWebPart.js",
+          "manifest": "./src/webparts/helloProperties/HelloPropertiesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloPropertiesWebPartStrings": "lib/webparts/helloProperties/loc/{locale}.js"
+  }
+}

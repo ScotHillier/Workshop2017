@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "b520f400-d2ca-4479-ac39-c2d2e4fd27b7",
+  "alias": "MyPartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "b520f400-d2ca-4479-ac39-c2d2e4fd27b7",
+    "group": { "default": "Under Development" },
+    "title": { "default": "MyPart" },
+    "description": { "default": "My first real web part" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "MyPart"
+    }
+  }]
+}

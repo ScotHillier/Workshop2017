@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+    div(class='jumbotron') 
+        p Demonstrates the use of internal modules wth a SCRIPT tag
+
+    button(id='personSpeak' class='btn btn-primary') Person Speak
+    button(id='customerTalk' class='btn btn-primary') Customer Talk
+
+    script(src='/javascripts/internalModule1.js')
+    script(src='/javascripts/internalModule2.js')
+    script(src='/javascripts/internalLoader.js')
+
+

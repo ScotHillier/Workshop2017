@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SPFX Header and Footer Extension"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="50c1f083-efd5-4fcd-8f7b-f0d8bd2697db"
+        ClientSideComponentProperties="{&quot;Top&quot;:&quot;Top area of the page&quot;,&quot;Bottom&quot;:&quot;Bottom area in the page&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+    script(src='https://google.github.io/traceur-compiler/bin/traceur.js')
+    script(src='/libs/es6-module-loader/es6-module-loader-dev.js')
+
+    div(class='jumbotron') 
+        p Demonstrates loading external modules with the ES6 loader and Traceur
+
+    button(id='personSpeak' class='btn btn-primary') Person Speak
+    button(id='customerTalk' class='btn btn-primary') Customer Talk
+
+    script(type='module' src='/javascripts/es6Loader.js')
+
+ 
